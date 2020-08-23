@@ -1,0 +1,13 @@
+{
+  "name": "terser-test",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "build": " terser --module  --compress  --mangle -- ./input.js > output.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "terser": "^5.2.1"
+  }
+}
